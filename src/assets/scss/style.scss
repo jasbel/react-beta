@@ -1,0 +1,56 @@
+/* Initial 
+-------------------------------*/
+@import 'abstract/functions';
+@import 'abstract/variables';
+
+/* Vendors */
+
+/* Abstract 
+-------------------------------*/
+@import 'abstract/mixins';
+// @import 'abstract/placeholders';
+
+:root {
+    --theme-default: #008ce3;
+    --theme-secondary: #863a07;
+}
+
+/* Core or Base 
+-------------------------------*/
+@import 'core/reset';
+@import 'core/typography';
+@import 'core/base';
+
+
+/* Componente or Partials - Atomos
+-------------------------------*/
+@import "components/color";
+@import "components/icons";
+@import "components/buttons";
+// @import "components/card";
+// @import "components/animation";
+// @import "components/slider";
+
+/* Layout - Moleculas
+-------------------------------*/
+@import "layout/header";
+@import "layout/footer";
+@import "layout/nav";
+@import "layout/sidebar";
+@import "layout/hero";
+@import "layout/schema";
+// @import "layout/main";
+// @import "layout/search";
+
+/* Sections or blocks - Elementos 
+-------------------------------*/
+
+/* Views O Pages 
+-------------------------------*/
+@import "views/loader";
+@import "views/page";
+
+/* Themes 
+-------------------------------*/
+@import "themes/dark";
+@import "themes/responsive";

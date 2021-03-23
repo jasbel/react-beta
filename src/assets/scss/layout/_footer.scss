@@ -1,0 +1,25 @@
+/* Footer
+----------------------- */
+.footer {
+    $width_sidebar: 280px;
+    
+    background-color: $footer_bg_color;
+    box-shadow: $footer_box_shadow;
+    padding: $space-content;
+    bottom: 0;
+    left: 0;
+    margin-left: $width_sidebar;
+    transition: 0.5s;
+
+    &--fix {
+        width: calc(100% - $width_sidebar);
+        position: fixed;
+    }
+
+    &--dark {
+        background-color: $footer_dark_color;
+        p {
+            color: $footer_dark__txt_color;
+        }
+    }
+}

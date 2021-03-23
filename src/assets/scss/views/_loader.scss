@@ -1,0 +1,37 @@
+/**=====================
+     04. Loader CSS Start
+==========================**/
+.loader {
+
+    &--hide {
+        display: none;
+    }
+    &__wrapper {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        background-color: $white;
+        z-index: 11;
+        top: 0;
+    }
+     &__index {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        // filter: url("#goo");
+
+        &:after {
+            content: "";
+            width: 4em;
+            height: 4em;
+            background: var(--theme-default);
+            border-radius: 50%;
+            position: absolute;
+            transform: scale(0.5);
+        }
+    }
+}
