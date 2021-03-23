@@ -13,6 +13,7 @@
 | Edge  | > v  |
 | Safari  | > v  |
 | Firefox  | > v  |
+| Brave  | > v  |
 
 # Tamanio de pantalla optimizados
 
